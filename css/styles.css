@@ -148,11 +148,10 @@ section {
         padding: 4em;
     }
     
+    
 }
 @media screen and (max-width: 500px){
     #navbar__list{
-        /* display: flex;
-        flex-direction: column; */
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
